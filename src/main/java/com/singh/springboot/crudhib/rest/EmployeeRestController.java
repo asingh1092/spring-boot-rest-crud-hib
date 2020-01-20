@@ -3,14 +3,14 @@ package com.singh.springboot.crudhib.rest;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.singh.springboot.crudhib.dao.EmployeeDAO;
 import com.singh.springboot.crudhib.entity.Employee;
 
-@Controller
+@RestController
 @RequestMapping("/api")
 public class EmployeeRestController {
 	
